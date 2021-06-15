@@ -6,6 +6,10 @@ Notes and key things to remember, taken throughout the course:
 
 * When adding components in the `<script>` tag of a Vue file (such as in the App.vue file), a shortcut can be used to shorten the syntax of components with the same key (name) and value. For example, the search bar component listed like this: `SeacrhBar: SearchBar`, can be shortened to simply: `SearchBar`
 
-* Vue directives can be called using the keyword/phrase `v-on` followed by the input. This can be shortened when getting on input from the user like so, from this: `v-on:input="..."`, to this: `@input=" "`
+* Vue directives can be called using the keyword/phrase `v-on` followed by the input. This can be shortened when getting an input from the user like so, from this: `v-on:input="..."`, to this: `@input=" "`
+
+* Similarly, there are multiple ways to call the `v-bind` directive as well. This can be shortened when binding a prop like so (in this example, videos), from this: `v-bind:videos="..."`, to this: `:videos="..."`
+
+* Note: This development app is using an active Youtube Data v3 API key
 
 * Add notes here
